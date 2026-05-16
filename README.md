@@ -14,6 +14,6 @@ $ gcc send_prog.c uart_if.c -o send_prog
 ## Run
 
 ```bash
-./recv_prog "/dev/tty0"
-./send_prog "Hello, World!" "/dev/tty0"
+$ ./recv_prog "/dev/ttyS0"
+$ ./send_prog "Hello, World!" "/dev/ttyS0"
 ```
