@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <errno.h>
-#include <poll.h>
 #include <string.h>
 #include <err.h>
 #include "uart_if.h"
